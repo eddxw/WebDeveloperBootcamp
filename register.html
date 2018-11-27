@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+	</head>
+	<body>
+		<h1>Register</h1>
+		<form>
+			<label for="first">First Name:</label>
+			<input type="text" id="first" name="first" placeholder="John" required>
+			<label for="last">Last Name:</label>
+			<input type="text" id="last" name="last" placeholder="Doe" required>
+			
+			<div>
+				<label for="male">Male</label>
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="female">Female</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="other">Other</label>
+				<input type="radio" id="other" name="gender" value="other">
+			</div>
+			<div>
+				<label for="email">Email:</label>
+				<input type="email" name="email" placeholder="john@doe.xyz" required>
+				<label for="password">Password:</label>
+				<input type="password" name="password" minlength="6"  required>
+			</div>
+			<div>
+				<label>Birthday:</label>
+				<select name="month" placeholder="Month">
+					<option>Month</option>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+					<option>Apr</option>
+					<option>May</option>
+					<option>Jun</option>
+					<option>Jul</option>
+					<option>Ago</option>
+					<option>Sep</option>
+					<option>Oct</option>
+					<option>Nov</option>
+					<option>Dec</option>
+				</select>
+				<select name="day">
+					<option>Day</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+				</select>
+				<select name="year">
+					<option>Year</option>
+					<option>2000</option>
+					<option>2001</option>
+					<option>2002</option>
+					<option>2003</option>
+					<option>2004</option>
+				</select>
+			</div>
+			<div>
+				<label for="terms">I agree to the terms and conditions</label>
+				<input type="checkbox" name="terms">
+			</div>
+			<button>Submit</button>
+		</form>
+	</body>
+</html>
