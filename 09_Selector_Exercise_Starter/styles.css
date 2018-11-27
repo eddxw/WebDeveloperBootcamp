@@ -1,0 +1,18 @@
+
+h1 {
+	font-family: Georgia;
+	font-size: 5.0em;
+	text-align: right;
+	text-decoration: line-through;
+}
+p {
+	font-family: Arial;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: underline;
+}
+span {
+	font-size: 1.6em;
+}
