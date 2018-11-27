@@ -1,0 +1,29 @@
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+table{
+	/* border: 2px solid; */
+	width: 50%;
+
+	margin: 5px auto;
+}
+table td {
+	width: 33%;
+	height: 100px;
+	text-align: center;
+	border: 1px solid;
+}
+table tr:nth-child(1) td {
+	border-top: none;
+}
+table tr:nth-child(3) td {
+	border-bottom: none;
+}
+table tr td:nth-child(1) {
+	border-left: none;
+}
+table tr td:nth-child(3) {
+	border-right: none;
+}
+

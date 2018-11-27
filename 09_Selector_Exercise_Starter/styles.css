@@ -1,18 +1,19 @@
 
 h1 {
-	font-family: Georgia;
+	font-family: Indie Flower;
 	font-size: 5.0em;
 	text-align: right;
 	text-decoration: line-through;
 }
 p {
-	font-family: Arial;
+	font-family: Raleway;
 	font-size: 1.3em;
-	font-weight: bold;
+	font-weight: normal;
 	line-height: 1.5;
 	text-align: center;
 	text-decoration: underline;
 }
 span {
 	font-size: 1.6em;
+	font-weight: bolder;
 }
