@@ -4,12 +4,12 @@ h1{
 }
 table{
 	/* border: 2px solid; */
-	width: 50%;
-
+	/* width: 50%; */
+	/* background-color: lightcyan; */
 	margin: 5px auto;
 }
 table td {
-	width: 33%;
+	width: 100px;
 	height: 100px;
 	text-align: center;
 	border: 1px solid;
