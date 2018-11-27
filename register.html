@@ -23,7 +23,7 @@
 				<label for="email">Email:</label>
 				<input type="email" name="email" placeholder="john@doe.xyz" required>
 				<label for="password">Password:</label>
-				<input type="password" name="password" minlength="6"  required>
+				<input type="password" name="password" pattern=".{5,10}" required title="Password must be between 5 to 10 characters" =""  required>
 			</div>
 			<div>
 				<label>Birthday:</label>

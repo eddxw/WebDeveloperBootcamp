@@ -1,0 +1,20 @@
+h1{
+	color:#FF8000;
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	border: 8px dashed rgb(200, 100, 5)
+}
+li{
+	color:green;
+}
+h4{
+	color: purple;
+	background: rgb(255, 100, 20);
+}
+body{
+	background: url('https://www.babybedding.com/images/fabric/taupe-woodgrain-fabric_medium.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
